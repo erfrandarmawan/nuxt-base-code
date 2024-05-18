@@ -1,0 +1,45 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@editorjs/checklist": "^1.6.0",
+    "@editorjs/code": "^2.9.0",
+    "@editorjs/delimiter": "^1.4.0",
+    "@editorjs/editorjs": "^2.29.1",
+    "@editorjs/embed": "^2.7.1",
+    "@editorjs/header": "^2.8.1",
+    "@editorjs/inline-code": "^1.5.0",
+    "@editorjs/list": "^1.9.0",
+    "@editorjs/marker": "^1.4.0",
+    "@editorjs/quote": "^2.6.0",
+    "@editorjs/raw": "^2.5.0",
+    "@editorjs/simple-image": "^1.6.0",
+    "@editorjs/table": "^2.3.0",
+    "@editorjs/underline": "^1.1.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/vue-fontawesome": "^3.0.5",
+    "@pinia/nuxt": "^0.5.1",
+    "nuxt": "^3.11.2",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.27",
+    "vue-loading-overlay": "^6.0.4",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@tailwindcss/typography": "^0.5.13",
+    "autoprefixer": "^10.4.19",
+    "daisyui": "^4.11.1",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3"
+  }
+}
